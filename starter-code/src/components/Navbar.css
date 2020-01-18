@@ -1,0 +1,8 @@
+.nav-style {
+  background-color: rgb(15, 97, 145);
+  padding: 0.5rem;
+}
+
+.nav-style a {
+  color: white;
+}

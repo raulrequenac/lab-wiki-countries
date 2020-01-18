@@ -1,5 +1,8 @@
+p {
+  margin: 0 !important;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -30,3 +33,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App .body {
+  display: flex;
+}
+
+.App .list-group {
+  max-height: 89vh;
+  overflow-y: scroll;
+ }

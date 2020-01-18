@@ -1,0 +1,17 @@
+.CountryDetail {
+  margin: 4rem;
+}
+
+.CountryDetail h1 {
+  font-size: 3rem;
+}
+
+.CountryDetail td {
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  vertical-align: top;
+}
+
+.CountryDetail table {
+  margin: 2rem;
+}

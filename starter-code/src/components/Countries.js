@@ -1,19 +1,12 @@
 import React from 'react'
-import countries from '../countries.json'
 import { Link } from 'react-router-dom';
+import './Countries.css'
 
-const Countries = () => {
+const Countries = ({name, id, flag}) => {
   return (
-    <div className="Countries">
-      <ul>
-        {countries.map((country, index) => (
-          <li key={index}>
-            <img alt="" src={country.flag}></img>
-            <Link to={`/${country.cca3}`}>{country.name}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <p className="list-group-item list-group-item-action">
+      <Link to={`/${id}`}>{flag} {name}</Link>
+    </p>
   )
 }
 
